@@ -26,7 +26,6 @@ const Navbar = () => {
                 <Link className="topnav-item" to="/login">Login</Link>
                 <Link className="topnav-item" to="/register">Sign up</Link>
             </>}
-            <span className="topnav-item" switch-theme="true">Switch theme</span>
             </div>
         </div>
     )
