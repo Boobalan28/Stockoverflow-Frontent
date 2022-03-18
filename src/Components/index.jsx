@@ -29,7 +29,7 @@ const Home = () => {
         <div className="container">
             {!userInfo && !firstRender?
             <div className="mt-5 intro-pg pt-5">
-                <h1 className="intro-title">The stock overflow clone</h1>
+                <h1 className="intro-title">Welcome to Q & A app</h1>
                 <p className="mt-3 intro-text">Please ask your question here for your coding dought!</p>
                 <Link to = "/login" className="btn btn-dark mr-2">Log in</Link>
                 <Link to = "/register" className="btn btn-light ml-2">Sign up</Link>
