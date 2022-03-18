@@ -16,7 +16,7 @@ const Navbar = () => {
     })
     return(
         <div className="topnav theme-reverse topnav-shadow">
-            <Link className="topnav-brand" to= "/">Stackoverflow</Link>
+            <Link className="topnav-brand" to= "/">Q&A</Link>
             <span className="topnav-hamburger-menu" data-target = "myTopnav">&#x2630;</span>
             <div className="topnav-right" id="myTopnav">
             {userInfo?
